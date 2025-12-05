@@ -67,8 +67,11 @@ pip install -r requirements.txt
 
 4️⃣ Create a .env File for Spotify Credentials
 Create a file named .env inside the project folder:
+
 SPOTIPY_CLIENT_ID=your_client_id_here
+
 SPOTIPY_CLIENT_SECRET=your_client_secret_here
+
 SPOTIPY_REDIRECT_URI=http://127.0.0.1:8888/callback
 
 Get these values from:
@@ -92,19 +95,30 @@ Gesture	Action
 | 👍☝️ **Thumb–Index distance**     | Volume control |
 
 🎨 UI Showcase
+
 📀 Rotating vinyl disc with album art
+
 ➕ Center control buttons (Play/Pause/Next/Previous/Replay)
+
 📊 Spotify-style progress bar
+
 🔊 Vertical volume slider
+
 👋 Live hand landmark overlay
 
 📁 Project Structure
 spotify-gesture-controller/
+
 │
+
 ├── spotify_controller.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── .gitignore
+
 └── .env   (ignored in GitHub)
 
 🧩 Possible Future Improvements
