@@ -1,0 +1,52 @@
+
+# Virtual environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Ignore media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# OR ignore the entire folder
+images/
+photos/
+videos/
+assets/
+
+.spotify_cache
+
+spotidocu.txt
+
+# EXCEPT images folder:
+!images/
+!images/*.jpg
+!images/*.jpeg
+!images/*.png
+
+
